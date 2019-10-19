@@ -1,0 +1,22 @@
+.base {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 0 15px;
+  transition: 300ms;
+}
+.baseFocused {
+  composes: base;
+  border: 1px solid black;
+}
+.base input {
+  text-decoration: none;
+  -webkit-appearance: none;
+  width: 100%;
+  border: none;
+  height: 40px;
+  outline: none;
+  background: none;
+  vertical-align: top;
+}
